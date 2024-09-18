@@ -9,4 +9,4 @@ Die Elemente wurden dann in eigene Widgets gepackt und dann die Widgets angepass
 ## Design
 
 
-![Design](design_einstellungen.jpg)
+![Design](design.png)
