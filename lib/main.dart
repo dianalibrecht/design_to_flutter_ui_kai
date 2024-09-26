@@ -17,7 +17,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: SafeArea(
-          child: Center(
+          child: SingleChildScrollView(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
@@ -26,7 +26,7 @@ class MainApp extends StatelessWidget {
                   style: TextStyle(fontSize: 24),
                 ),
                 const SizedBox(height: 16),
-                const HikeImage(),
+                const Image(image: AssetImage("assets/bild_von_kai.jpg")),
                 Container(height: 32),
                 const HikePadding(
                   child: HikeAddress(),
