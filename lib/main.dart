@@ -2,6 +2,7 @@ import 'package:design_to_flutter_ui/hike_actions.dart';
 import 'package:design_to_flutter_ui/hike_address.dart';
 import 'package:design_to_flutter_ui/hike_description.dart';
 import 'package:design_to_flutter_ui/hike_image.dart';
+import 'package:design_to_flutter_ui/hike_padding.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -27,12 +28,15 @@ class MainApp extends StatelessWidget {
                 const SizedBox(height: 16),
                 const HikeImage(),
                 Container(height: 32),
-                const HikeAddress(),
+                const HikePadding(
+                  child: HikeAddress(),
+                ),
                 const SizedBox(height: 24),
-                const HikeActions(),
+                const HikePadding(
+                  child: HikeActions(),
+                ),
                 const SizedBox(height: 48),
-                const Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 32.0),
+                const HikePadding(
                   child: HikeDescription(),
                 ),
               ],

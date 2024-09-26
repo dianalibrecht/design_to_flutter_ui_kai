@@ -8,7 +8,7 @@ class HikeImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 300,
+      height: 275,
       color: Colors.greenAccent,
     );
   }

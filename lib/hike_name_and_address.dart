@@ -15,7 +15,10 @@ class HikeNameAndAddress extends StatelessWidget {
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         SizedBox(height: 8),
-        Text("Kandersteg, Switzerland")
+        Text(
+          "Kandersteg, Switzerland",
+          style: TextStyle(color: Colors.grey),
+        )
       ],
     );
   }

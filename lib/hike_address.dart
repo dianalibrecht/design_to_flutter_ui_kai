@@ -12,8 +12,9 @@ class HikeAddress extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         HikeNameAndAddress(),
-        SizedBox(width: 80),
+        Spacer(),
         Icon(Icons.star, color: Colors.red),
+        SizedBox(width: 4),
         Text("41"),
       ],
     );

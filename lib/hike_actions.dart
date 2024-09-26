@@ -11,7 +11,7 @@ class HikeActions extends StatelessWidget {
       children: [
         HikeActionButton(icon: Icons.phone, text: "Call"),
         SizedBox(width: 48),
-        HikeActionButton(icon: Icons.near_me_rounded, text: "Share"),
+        HikeActionButton(icon: Icons.near_me_rounded, text: "Route"),
         SizedBox(width: 48),
         HikeActionButton(icon: Icons.share, text: "Share"),
       ],
