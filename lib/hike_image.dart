@@ -8,8 +8,6 @@ class HikeImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 275,
-      color: Colors.greenAccent,
-    );
+        child: const Image(image: AssetImage("assets/bild_von_kai.jpg")));
   }
 }
